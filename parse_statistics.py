@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 import sys
 
+
 def parse_statistics_from_url(url: str = "https://asbasket.ru/teams/6807?apiUrl=https%3A%2F%2Fasb.infobasket.su"):
 
     options = Options()
